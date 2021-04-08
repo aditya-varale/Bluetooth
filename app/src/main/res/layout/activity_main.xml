@@ -60,6 +60,47 @@
 
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Enable BT"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:onClick="ButtonBuletoothEnableOn"/>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/text_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+
+
+
+
+        </LinearLayout>
 
         <ListView
             android:id="@+id/list_view"
