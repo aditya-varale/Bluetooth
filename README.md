@@ -2,10 +2,10 @@
 # Bluetooth
 Bluetooth Chat Application
 
-![Project Image](ProfileImages/BT1-min.jpg)
+![Project Image](ProfileImages/BT1_.jpg)
 
 
-![Project Image](ProfileImages/BT2-min.jpg)
+![Project Image](ProfileImages/BT2_.jpg)
 
 ---
 
