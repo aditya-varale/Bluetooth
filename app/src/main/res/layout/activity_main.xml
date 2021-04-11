@@ -77,6 +77,17 @@
                 android:onClick="ButtonBuletoothEnableOn"/>
 
 
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Handler"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:onClick="ButtonHandler"/>
+
+
 
 
 

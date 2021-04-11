@@ -173,4 +173,9 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(BluetoothAdapter.EXTRA_DISCOVERABLE_DURATION,10);
         startActivity(intent);
     }
+
+    public void ButtonHandler(View view) {
+        Intent intent = new Intent(MainActivity.this,HandlerActivity.class);
+        startActivity(intent);
+    }
 }
