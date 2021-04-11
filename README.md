@@ -3,9 +3,9 @@
 Bluetooth Chat Application
 
 ![Project Image](ProfileImages/BT1_.jpg)
-![Dashboard](ProfileImages/BT3.png)
-![SendMessage](ProfileImages/BT4.png)
-![SendImage](ProfileImages/BT5.png)
+![Dashboard](ProfileImages/BT3.jpg)
+![SendMessage](ProfileImages/BT4.jpg)
+![SendImage](ProfileImages/BT5.jpg)
 
 
 ![Project Image](ProfileImages/BT2_.jpg)
