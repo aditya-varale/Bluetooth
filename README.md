@@ -3,6 +3,8 @@
 Bluetooth Chat Application
 
 ![Project Image](ProfileImages/BT1.jpg)
+
+
 ![Project Image](ProfileImages/BT2.jpg)
 
 ---
