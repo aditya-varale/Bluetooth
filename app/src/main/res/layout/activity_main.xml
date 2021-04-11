@@ -20,7 +20,8 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="On"
+            android:text="Start Bluetooth"
+            android:textSize="10sp"
             android:padding="10dp"
             android:layout_margin="10dp"
             android:layout_marginTop="20dp"
@@ -30,7 +31,8 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="OFF"
+            android:text="Disable Bluetooth"
+            android:textSize="10sp"
             android:padding="10dp"
             android:layout_margin="10dp"
             android:layout_marginTop="20dp"
@@ -40,7 +42,8 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Show"
+            android:text="Device List"
+            android:textSize="10sp"
             android:padding="10dp"
             android:layout_margin="10dp"
             android:layout_marginTop="20dp"
@@ -52,6 +55,7 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="Scan"
+                android:textSize="10sp"
                 android:padding="10dp"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
@@ -68,7 +72,7 @@
 
             <Button
                 android:layout_width="0dp"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:text="Enable BT"
                 android:padding="10dp"
@@ -79,13 +83,42 @@
 
             <Button
                 android:layout_width="0dp"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:text="Handler"
                 android:padding="10dp"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:onClick="ButtonHandler"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Send Message"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:onClick="SendMessage"/>
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Send Image"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:onClick="SendImage"/>
+
 
 
 

@@ -178,4 +178,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this,HandlerActivity.class);
         startActivity(intent);
     }
+
+    public void SendImage(View view) {
+        Intent intent = new Intent(MainActivity.this,ImageBluetoothActivity.class);
+        startActivity(intent);
+    }
+
+    public void SendMessage(View view) {
+        Intent intent = new Intent(MainActivity.this,BluetoothActivity.class);
+        startActivity(intent);
+    }
 }
